@@ -13,6 +13,7 @@ How to setup your self hosted RPC (Requires high disk space up to 500GB initial)
 bash <(curl -fsSL https://raw.githubusercontent.com/Iziedking/geth-prysm_guide/main/install_sepolia_node.sh)
 ```
 ### Step 2: Check Sync status
+Use ctrl + C to exit logs and then run next command each time to check sync status
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/Iziedking/geth-prysm_guide/main/sync.sh)
 ```
