@@ -42,7 +42,7 @@ This updates Geth to the latest stable (v1.16.4) and Prysm to the latest release
 ```bash
   services:
   geth:
-    image: ethereum/client-go:stable
+    image: ethereum/client-go:v1.16.4
     container_name: geth
     network_mode: host
     restart: unless-stopped
@@ -115,7 +115,9 @@ pull latest image:
 ```bash
   docker compose pull
 ```
-
+```bash
+  docker compose down
+```
 ```bash
   docker compose up -d
 ```
