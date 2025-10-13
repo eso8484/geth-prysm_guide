@@ -100,7 +100,7 @@ This updates Geth to the latest stable (v1.16.4) and Prysm to the latest release
       - --min-sync-peers=3
       - --checkpoint-sync-url=https://checkpoint-sync.sepolia.ethpandaops.io
       - --genesis-beacon-api-url=https://checkpoint-sync.sepolia.ethpandaops.io
-      - --subscribe-all-subnets
+      - --subscribe-all-data-subnets
     logging:
       driver: "json-file"
       options:
