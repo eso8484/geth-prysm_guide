@@ -21,7 +21,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Iziedking/geth-prysm_guide/m
 
 ---
 
-### Update to existing geth RPC node
+### Update your existing geth RPC node
 
 Ethereum upgrades like Fusaka require running the latest stable client versions. Your Docker setup makes this straightforward here is a Quick Update Steps:
 
