@@ -40,7 +40,7 @@ This updates Geth to the latest stable (v1.16.4) and Prysm to the latest release
   nano docker-compose.yml
 ```
 ```bash
-  services:
+services:
   geth:
     image: ethereum/client-go:v1.16.4
     container_name: geth
