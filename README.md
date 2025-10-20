@@ -29,9 +29,11 @@ Ethereum upgrades like Fusaka require running the latest stable client versions.
 if you followed my guide earlier above, its easy just run the following commands
 This updates Geth to the latest stable (v1.16.4) and Prysm to the latest release (v6.1.2).
 
-```bash
-  cd ~/ethereum
-```
+If you are already running a geth RPC node you can first confirm how your setup is:
+- ``ls -a`` to check your directory
+- look for folder containing your rpc node script setup (most guides name it as ethereum or Ethereum)
+- then cd into the folder. If ethreum ``cd ~/ethereum`` if Ethereum ``cd Ethereum`` then continue with the following commands
+
 
 ```bash
   rm -rf docker-compose.yml
@@ -112,9 +114,6 @@ then ctrl + X to exit
 
 pull latest image:
 
-```bash
-  docker compose pull
-```
 ```bash
   docker compose down
 ```
