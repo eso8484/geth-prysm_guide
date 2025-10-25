@@ -46,8 +46,8 @@ services:
       - 8546:8546
       - 8551:8551
     volumes:
-      - /root/ethereum/execution:/data
-      - /root/ethereum/jwt.hex:/data/jwt.hex
+      - /mnt/data/ethereum/execution:/data
+      - /mnt/data/ethereum/jwt.hex:/data/jwt.hex
     command:
       - --sepolia
       - --http
@@ -76,8 +76,8 @@ services:
       - 4000:4000
       - 3500:3500
     volumes:
-      - /root/ethereum/consensus:/data
-      - /root/ethereum/jwt.hex:/data/jwt.hex
+      - /mnt/data/ethereum/consensus:/data
+      - /mnt/data/ethereum/jwt.hex:/data/jwt.hex
     command:
       - --sepolia
       - --accept-terms-of-use
